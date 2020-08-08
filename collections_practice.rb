@@ -29,7 +29,5 @@ def kesha_maker (array)
   $_replace = []
   array.each_with_index |character, 2|
     $_replace << (index(2) = "$")
-  end
   $_replace
-end
 end
