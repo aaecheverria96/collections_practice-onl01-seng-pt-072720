@@ -29,4 +29,4 @@ def kesha_maker (array)
   array.each do |index|
     index[2] = "$"
   end
-end 
+end
