@@ -40,10 +40,7 @@ def find_a (array)
   end
 
 def add_s (array)
-  i = 0
-  if i == 1 do not add "s"
-  else
-    array.each_with_index.collect {|word| word + "s"}
+    array.each_with_index.collect do {if i == 1 do not add "s"} {|word| word.push("s")}  
   end
 end
 
