@@ -41,7 +41,7 @@ def find_a (array)
 
 def add_s (array)
     array.each_with_index.collect do |word|
-      if i == 0 then false
+      if i == 1 then false
       else
         word.push("s")
       end
