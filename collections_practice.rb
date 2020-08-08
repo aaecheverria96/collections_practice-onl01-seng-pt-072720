@@ -26,9 +26,6 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
-  $_replace = []
-  array.each_with_index do |character,index|
-    $_replace << ("index(2) = $")
-  end
-  $_replace
-end
+  array.each do |index| 
+    index[2] = $ 
+  end 
