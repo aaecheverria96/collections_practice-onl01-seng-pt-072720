@@ -44,6 +44,6 @@ def add_s (array)
       if i == 0 then false
       else
         word.push("s")
-      end 
+      end
   end
 end
