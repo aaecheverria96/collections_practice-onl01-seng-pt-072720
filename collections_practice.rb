@@ -38,3 +38,13 @@ def find_a (array)
   def sum_array (array)
     array.inject(0) {|sum, number| sum + number}
   end
+
+def add_s (array) 
+  i = 0 
+  if i == 1 do not add "s" 
+  else 
+    array.each_with_index.collect {|word| word + "s"} 
+  end 
+end 
+    
+  
